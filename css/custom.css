@@ -1,13 +1,15 @@
-/*This Custom CSS file has not been structured in any particular order. 
+/*This Custom CSS file has not been structured in any particular order.
 
 Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #ebebeb;
-	padding-top: 80px;
+	background-color: #FFFFFF;
 }
 
+hr {
+
+}
 /*Home*/
 .full-page-bg {
   position: absolute;
@@ -22,9 +24,6 @@ body{
   -o-background-size: cover;
 }
 
-/*Cards*/
-.card{border: none; background-color: transparent;}
-
 /*Navbar Rules*/
 img.nav-bar-img{
 	margin-right: 10px;
@@ -37,7 +36,7 @@ img.nav-bar-img{
 
 a.navbar-brand{
 	font-family:'Montserrat', Sans-Serif;
-	font-size: 
+	font-size:
 }
 
 /*Floating Nav*/
@@ -46,14 +45,6 @@ a.navbar-brand{
 	margin-top: 50px;
 	border-left: 1px solid #727272;
 }
-
-	a.float-nav-link{
-		font-family: 'Lato', Sans-Serif;
-		color: #595959;
-		font-size: 14px;
-		font-weight: 600;
-		text-align: left;
-	}
 
 /*Image Rules*/
 img{
@@ -64,44 +55,21 @@ img{
 }
 
 /*Font Override Rules*/
-h1, h2, h3, h4, h5, h6 {
-	font-family:'Montserrat', Sans-Serif;
-	margin-bottom: 20px;
-}
-	h1.welcome-special{
-		font-size: 90px;
-	}
-
-	h2.welcome-special-sub{
-		font-family: 'Lato', Sans-Serif;
-		font-size: 30px;
-	}
-
-	h3{
-		text-transform: uppercase;
-		color: #a49727;
-		letter-spacing: -0.5px;
-	}
-
-p, li, span, a {
-	font-family: 'Lato', Sans-Serif;
-	text-align: justify;
-	font-weight: 300;
+h3, h4 {
+	line-height: 40px;
 }
 
-	p{
-		color: #494949;
-		line-height: 30px;
-		margin-bottom: 25px;
-	}
-
-span.img-caption{
-	display: block;
-	font-size: 12px;
-	font-weight: 500;
-	padding: 10px 0px 10px 0px;
+p {
+	line-height: 32px;
+}
+a {
+	color: #000;
 }
 
+/* Card */
+.card {
+	background-color: #f4f4f4;
+}
 /*Container/class etc Override Rules*/
 .welcome-message{
 	margin-top: 200px;
@@ -127,11 +95,11 @@ span.img-caption{
 }
 
 .master-heading{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .section-heading{
-	padding-top: 100px;	
+	padding-top: 100px;
 }
 
 .slide-show{
@@ -147,6 +115,3 @@ span.img-caption{
 	background-color: #989898;
 	border-top: 1px solid #727272;
 }
-
-
-
