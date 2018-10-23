@@ -34,7 +34,6 @@ img.nav-bar-img{
 
 }
 
-
 /*Floating Nav*/
 .floating-nav{
 	position: fixed;
@@ -65,6 +64,12 @@ a {
 /* Card */
 .card {
 	background-color: #f4f4f4;
+}
+
+/* Figure */
+
+.figure-caption {
+	font-size: 12px;
 }
 /*Container/class etc Override Rules*/
 .welcome-message{
